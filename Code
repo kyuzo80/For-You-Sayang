@@ -1,0 +1,34 @@
+<body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Cantika ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="start-screen">
+  <h1>For You And Only You, Sayangku ♡</h1>
+  <button id="startBtn">Tap to Start</button>
+</div>
+
+<audio id="bgMusic" loop preload="auto">
+  <source src="https://files.catbox.moe/1daq5c.mp3" type="audio/mp3">
+</audio>
+
+<div class="main hidden" id="mainContent">
+
+  <img src="https://files.catbox.moe/cvyj6h.jpeg" class="photo">
+
+  <div class="text">
+    <span id="typing"></span>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
